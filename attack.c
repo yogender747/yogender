@@ -7,7 +7,7 @@
 #include <time.h>
 
 void usage() {
-    printf("Usage: ./soulcracks ip port time threads\n");
+    printf("Usage: ./rishi ip port time threads\n");
     exit(1);
 }
 
@@ -104,7 +104,7 @@ int main(int argc, char *argv[]) {
             free(thread_ids);
             exit(1);
         }
-        printf("Launched thread with ID: Soulcracks %lu\n", thread_ids[i]);
+        printf("Launched thread with ID: Rishi %lu\n", thread_ids[i]);
     }
 
     for (int i = 0; i < threads; i++) {
@@ -112,6 +112,6 @@ int main(int argc, char *argv[]) {
     }
 
     free(thread_ids);
-    printf("Attack finished join @soulcracks\n");
+    printf("Attack finished DM @rishi747\n");
     return 0;
 }
