@@ -214,9 +214,6 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    if (is_expired()) {
-        exit(EXIT_FAILURE);
-    }
 
     ip = argv[1];
     port = atoi(argv[2]);
