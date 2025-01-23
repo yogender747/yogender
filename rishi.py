@@ -102,10 +102,10 @@ def generate_unique_id(length=10):
 # Function to generate main menu keyboard
 def main_menu_keyboard():
     return ReplyKeyboardMarkup([ 
-        [KeyboardButton("RESUME ▶️"), KeyboardButton("PAUSE ⏸️")],
-        [KeyboardButton("VIEW ATTACKS 📊")],
-        [KeyboardButton("CHECK BGMI TRAFFIC 📈 ")], 
-        [KeyboardButton("HELP ℹ️")],
+        [KeyboardButton("/RESUME ▶️"), KeyboardButton("/PAUSE ⏸️")],
+        [KeyboardButton("/VIEW_ATTACKS 📊")],
+        [KeyboardButton("/CHECK_BGMI_TRAFFIC 📈 ")], 
+        [KeyboardButton("/HELP ℹ️")],
     ], resize_keyboard=True)
 
 # PlayerStats class to handle player statistics
