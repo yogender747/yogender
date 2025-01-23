@@ -102,7 +102,7 @@ def generate_unique_id(length=10):
 # Function to generate main menu keyboard
 def main_menu_keyboard():
     return ReplyKeyboardMarkup([ 
-        [KeyboardButton("RESUME ▶️"), KeyboardButton("/pause ⏸️")],
+        [KeyboardButton("RESUME ▶️"), KeyboardButton("PAUSE ⏸️")],
         [KeyboardButton("VIEW ATTACKS 📊")],
         [KeyboardButton("CHECK BGMI TRAFFIC 📈 ")], 
         [KeyboardButton("HELP ℹ️")],
