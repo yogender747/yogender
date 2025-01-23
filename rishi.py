@@ -9,7 +9,7 @@ import itertools
 import requests
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from sharpx import BOT_TOKEN, ADMIN_IDS
+from config import BOT_TOKEN, ADMIN_IDS
 
 USER_FILE = "users.json"
 KEY_FILE = "keys.json"
